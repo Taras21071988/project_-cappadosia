@@ -18,8 +18,8 @@ body{
   font-family: 'Roboto Condensed', sans-serif;
 }
 .container{
-  max-width: 1220px;
-  padding: 0 10px;
+  max-width: 1240px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 .header{
@@ -35,12 +35,14 @@ body{
   flex-direction: column;
   color: #000000;
   text-align: center;
+  align-self: center;
 }
 .header__content-top{
   display: flex;
   justify-content: space-between;
   padding-top: 72px;
   margin-bottom: 152px;
+
 }
 .header__top-list{
   display: flex;
@@ -73,9 +75,8 @@ body{
   font-weight: 300;
   font-size: 56px;
   line-height: 66px;
-  text-align: end;
-  margin-right: 86px;
-  margin-top: -84px;
+  align-self: self-end;
+  transform: translate( 0px, -80px);
 }
 @media (max-width: 1250px){
   .header__content-top{
@@ -99,8 +100,6 @@ body{
   .header__content-text {
     font-size: 45px;
     line-height: 47px;
-    margin-right: 200px;
-    margin-top: -84px;
   }
 }
 @media (max-width: 1000px){
@@ -109,10 +108,8 @@ body{
     line-height: 279px;
   }
   .header__content-text {
-    font-size: 37px;
-    line-height: 58px;
-    margin-right: 147px;
-    margin-top: -93px;
+    font-size: 30px;
+    line-height: 20px;
   }
 }
 @media (max-width: 640px){
@@ -134,8 +131,6 @@ body{
   .header__content-text {
     font-size: 32px;
     line-height: 37px;
-    margin-right: 100px;
-    margin-top: -100px;
   }
 }
 @media (max-width: 480px){
@@ -162,8 +157,6 @@ body{
   .header__content-text {
     font-size: 22px;
     line-height: 32px;
-    margin-right: 63px;
-    margin-top: -69px;
   }
 }
 
