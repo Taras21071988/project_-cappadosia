@@ -159,5 +159,29 @@ body{
     line-height: 32px;
   }
 }
+@media (max-width: 330px){
+  .header__content-top{
+    flex-direction: column;
+    margin-bottom: 90px;
+  }
+  .header__top-list{
+    padding-bottom: 15px;
+  }
+  .header__list-item{
+    margin-right: -1px;
+    margin-left: 21px;
+  }
+  .header__content-subtitle{
+    font-size: 60px;
+    line-height: 185px;
+  }
+  .header__content-text{
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+/* end header */
+
+
 
 /* font-family: 'Roboto Condensed', sans-serif; */
