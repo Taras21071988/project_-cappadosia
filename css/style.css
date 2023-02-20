@@ -18,8 +18,33 @@ ul {
   list-style: none;
 }
 
+ol {
+  list-style: none;
+}
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.button {
+  width: 280px;
+  height: 50px;
+  border: 1px solid #E2AB3F;
+  background-color: #fff;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.button:hover{
+  transform: scale(1.1);
+  color: #d6981d;
 }
 
 .title {
@@ -304,6 +329,58 @@ body {
   line-height: 21px;
 
   color: #000000;
+}
+
+.trip {
+  margin-bottom: 200px;
+}
+
+.trip__content {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.trip__content-text {
+  margin-right: 270px;
+}
+
+.trip-subtitle {
+  display: inline-block;
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  transform: translate(240px, -30px);
+  margin-bottom: 100px;
+}
+
+.trip__list-day {
+  margin-bottom: 45px;
+}
+
+.trip__list-day p {
+  margin-bottom: 20px;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.day__item {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.trip .swiper {
+  margin: 0;
+  min-width: 960px;
+  min-height: 1095px;
 }
 
 
