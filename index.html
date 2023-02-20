@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,12 @@
   <title>Cappadocia</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <header class="header">
     <div class="container">
@@ -41,12 +44,70 @@
   </header>
   <section class="main">
     <div class="container">
+      <div class="main__title">
+        <h2 class="title">
+          Fairy tail
+          </h1>
+          <p class="main__subtitle">
+            Сказочная страна чудес
+          </p>
+      </div>
+    </div>
+    <div class="main__content">
       <div class="wrapper">
-        
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="img/main_swiper1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/main_swiper2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/main_swiper3.jpg" alt="">
+            </div>
+
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+        </div>
+      </div>
+      <div class="content__text">
+        <p class="content-text">
+          Каппадокия - сказочная страна воздушных шаров, сырных домиков, разноцветных долин и волшебных рассветов! <br>
+          Сюда приезжают, чтобы увидеть природные чудеса, полетать на воздушном шаре и конечно же сделать миллион
+          красивых фотографий! </p>
+        <p class="content-text">
+          Участников тура ждёт профессиональная фотосессия от лучших фотографов Каппадокии! <br>
+          Ведь именно за волшебными фото на рассвете на фоне воздушных шаров сюда приезжают люди со всего мира!
+        </p>
+        <h3 class="content__text-title">
+          Также Вы увидите:
+        </h3>
+        <ul class="content__text-list">
+          <li class="content__list-item">Музей на открытом воздухе в Гёреме</li>
+          <li class="content__list-item">Ущелье Ыхлара и монастырь Селиме</li>
+          <li class="content__list-item">Подземные города</li>
+          <li class="content__list-item">Крепость Учхисар</li>
+          <li class="content__list-item">Зельве и Пашабаг</li>
+        </ul>
+        <p class="content-text">
+          и многие другие достпримечательности.
+        </p>
+        <p class="content-text">
+          Местная кухня — один из поводов посетить Каппадокию, здесь есть рестораны на любой бюджет.
+        </p>
       </div>
     </div>
   </section>
   <!-- add swiperjs -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="script/main.js"></script>
 </body>
+
 </html>
