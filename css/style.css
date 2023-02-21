@@ -442,9 +442,9 @@ body {
   margin-bottom: 24px;
 }
 
-/* .price {
-  margin-bottom: 200px;
-} */
+.price {
+  margin-bottom: -100px;
+}
 
 .price-subtitle {
   display: inline-block;
@@ -484,18 +484,104 @@ body {
   line-height: 21px;
   margin-bottom: 20px;
 }
-.price_img{
+
+.price_img {
   display: inline-block;
   transform: translate(950px, -451px);
 }
-.price__img-small-top{
+
+.price__img-small-top {
   display: inline-block;
   transform: translate(-10px, -50px);
 }
-.price__img-small-bot{
+
+.price__img-small-bot {
   display: inline-block;
   transform: translate(40px, 100px);
 }
-.price__img-big{
+
+.price__img-big {
   display: inline-block;
+}
+
+.price-form {
+  margin-bottom: 200px;
+}
+
+.price-form__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.price__form-content {
+  margin: 0 auto;
+}
+
+.price__form-text {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.form-text {
+  line-height: 69px;
+}
+
+.form-text_subtitle {
+  margin-bottom: 20px;
+  display: inline-block;
+  transform: translate(120px, 0px);
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.form__text-bot {
+  text-align: center;
+  line-height: 69px;
+  transform: translate(20px, 0px);
+}
+
+.form-text_subtitle-bot {
+  display: inline-block;
+  transform: translate(230px, 0px);
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.price__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-title {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+
+.form__input {
+  width: 383px;
+  height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid #E2AB3F;
+  padding: 14px 0 15px 31px;
+  outline: none;
+}
+
+.form__input::placeholder {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
 }
